@@ -1,25 +1,42 @@
 
-### Changing author of account
+#### Changing author of account
+
 ```bash
-$ git config --global user.name "USERNAME"
-$ git config --global user.email EMAIL
+git config --global user.name "USERNAME"
+git config --global user.email EMAIL
 ```
 
 
-### Adding to Github
+##### Adding to Github
+
 ```bash
-$ git add *
-$ git stage *
-
-$ git commit -a ...
-$ git commit -m "..."
-
-$ git push
+git add .
+git commit -m '{MESSAGE}'
+git push
 ```
 
-## Other Commands
 
-**Delete repository**
+##### Add existing code to repository
+
+```bash
+echo "# README" >> README.md 
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin <GITHUB SSH URL>
+git push -u origin main
+```
+
+
+##### Cloning a repository
+
+```bash
+git clone <GITHUB SSH URL>
+```
+
+
+##### Delete repository
 ```bash
 rm -fr .git
 ```

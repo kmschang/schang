@@ -2,7 +2,7 @@
 ## Invoke Vim/Vi
 
 ```bash
-$ vi FILE
+vi FILE
 ```
 
 
