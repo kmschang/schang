@@ -16,6 +16,14 @@ git push
 ```
 
 
+##### .gitignore
+
+```bash 
+echo .DS_Store >> .gitignore
+git add .gitignore
+git commit -m '.DS_Store banished!'
+```
+
 ##### Add existing code to repository
 
 ```bash
