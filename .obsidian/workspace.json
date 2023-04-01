@@ -67,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/Java Notes.md",
+                "file": "Terminal/Git Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/Java Notes.md",
+                "file": "Terminal/Git Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/Java Notes.md"
+                "file": "Terminal/Git Commands.md"
               }
             }
           }
@@ -196,12 +195,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b7fa8d14d0ac7149",
+  "active": "262f76ba697dcec4",
   "lastOpenFiles": [
+    "Terminal/Linux Commands.md",
+    "Terminal/SSH Comands.md",
     "Terminal/Vim Commands.md",
     "Terminal/Java Notes.md",
-    "Terminal/SSH Comands.md",
-    "Terminal/Linux Commands.md",
     "Terminal/Git Commands.md",
     "README.md",
     "2023-02-27.md",
