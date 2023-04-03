@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/Vim Commands.md",
+                "file": "Terminal/Hooks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/Vim Commands.md",
+                "file": "Terminal/Hooks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/Vim Commands.md"
+                "file": "Terminal/Hooks.md"
               }
             }
           }
@@ -208,10 +208,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "69fd6dd2c2357fac",
+  "active": "2b9551a865a16525",
   "lastOpenFiles": [
-    "Terminal/Hooks.md",
+    "pre-commit.txt",
     "Terminal/Vim Commands.md",
+    "Terminal/Hooks.md",
     "Terminal/Git Commands.md",
     "Terminal/Linux Commands.md",
     "Terminal/SSH Comands.md",
