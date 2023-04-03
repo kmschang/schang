@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/Hooks.md",
+                "file": "Terminal/yaml.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/Hooks.md",
+                "file": "Terminal/yaml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/Hooks.md",
+                "file": "Terminal/yaml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/Hooks.md"
+                "file": "Terminal/yaml.md"
               }
             }
           }
@@ -210,13 +210,15 @@
   },
   "active": "2b9551a865a16525",
   "lastOpenFiles": [
+    "Terminal/yaml checks.md",
+    "Terminal/yaml.md",
+    "Terminal/Hooks.md",
     "scripts/clang.bash",
     "scripts/configure_hooks.bash",
     "scripts/remove_hooks.bash",
     "scripts",
     "remove_hooks.bash",
     "Terminal/Git Commands.md",
-    "Terminal/Hooks.md",
     "workflows",
     "workflows/pre-commit",
     "configure_hooks.bash",
