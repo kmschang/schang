@@ -26,3 +26,12 @@ rm temp.txt
 
 # Change file permissions to be non-executable
 chmod -x $varfilename
+
+# Change directory to root
+cd ~/Dropbox/Programming/Java
+
+# Add all files to git
+git add .
+
+# Commit changes
+git commit -m "ran clang-format on $varfilename"
