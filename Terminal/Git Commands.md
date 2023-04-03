@@ -49,3 +49,10 @@ git clone <GITHUB SSH URL>
 rm -fr .git
 ```
 
+
+### Git Hooks
+
+removes apple attributes to hook files
+```bash
+xattr -d com.apple.quarantine <FILE NAME>
+```

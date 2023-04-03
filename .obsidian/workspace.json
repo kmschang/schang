@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "2b9551a865a16525",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terminal/Hooks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "cd202e78ea9c94b4",
             "type": "leaf",
             "state": {
@@ -67,7 +79,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -133,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/Git Commands.md",
+                "file": "Terminal/Vim Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/Git Commands.md",
+                "file": "Terminal/Vim Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/Git Commands.md"
+                "file": "Terminal/Vim Commands.md"
               }
             }
           }
@@ -195,13 +208,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "262f76ba697dcec4",
+  "active": "69fd6dd2c2357fac",
   "lastOpenFiles": [
+    "Terminal/Hooks.md",
+    "Terminal/Vim Commands.md",
+    "Terminal/Git Commands.md",
     "Terminal/Linux Commands.md",
     "Terminal/SSH Comands.md",
-    "Terminal/Vim Commands.md",
     "Terminal/Java Notes.md",
-    "Terminal/Git Commands.md",
     "README.md",
     "2023-02-27.md",
     "Untitled.canvas",
