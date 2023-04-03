@@ -6,6 +6,10 @@ https://pre-commit.com/hooks.html
 bash ~/Dropbox/Programming/dotfiles/configure_hooks.bash
 ```
 
+### Run remove script
+```bash
+bash ~/Dropbox/Programming/dotfiles/remove_hooks.bash
+```
 
 ### Install necessary packages
 ```bash
