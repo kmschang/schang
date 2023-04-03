@@ -21,3 +21,7 @@ mv pre-commit.sample pre-commit
 truncate -s 0 pre-commit
 cat ../../../dotfiles/pre-commit.txt >> pre-commit
 xattr -d com.apple.quarantine pre-commit
+
+# set up scripts
+cd ../..
+mkdir scripts

@@ -25,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Terminal/Hooks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4054a26a45fccb6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Terminal/yaml.md",
                 "mode": "source",
                 "source": false
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -208,17 +220,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2b9551a865a16525",
+  "active": "4054a26a45fccb6a",
   "lastOpenFiles": [
-    "Terminal/yaml checks.md",
-    "Terminal/yaml.md",
     "Terminal/Hooks.md",
+    "Terminal/yaml.md",
+    "Terminal/Git Commands.md",
+    "Terminal/yaml checks.md",
     "scripts/clang.bash",
     "scripts/configure_hooks.bash",
     "scripts/remove_hooks.bash",
     "scripts",
     "remove_hooks.bash",
-    "Terminal/Git Commands.md",
     "workflows",
     "workflows/pre-commit",
     "configure_hooks.bash",
