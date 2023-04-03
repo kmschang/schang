@@ -3,7 +3,7 @@
 fail_fast: false
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.2.0
+    rev: b0f11fe246ae49c7a3791009753d2148b97cb677
     hooks:
     -   id: trailing-whitespace
     -   id: end-of-file-fixer
@@ -15,22 +15,22 @@ repos:
     -   id: check-case-conflict
 
 -   repo: https://github.com/asottile/pyupgrade
-    rev: v3.3.1
+    rev: 45cdd60115e2fbab3bc8b1046a42c7302b2c0c8b
     hooks:
     -   id: pyupgrade
 
 -   repo: https://github.com/pocc/pre-commit-hooks
-    rev: master
+    rev: 336fdd7c3cab698ead0b1c95157b9e74d3906b62
     hooks:
     -   id: clang-format
         args: [--style=Google]
 
 -   repo: https://github.com/psf/black
-    rev: 23.3.0
+    rev: a552f7096a9f6e016c9bb1df1e0a77a17caeec1c
     hooks:
     -   id: black
 
 -   repo: https://github.com/PyCQA/flake8
-    rev: 6.0.0
+    rev: 45699b61ae4522864c60480c80d7c2ffb952d52e
     hooks:
     -   id: flake8
