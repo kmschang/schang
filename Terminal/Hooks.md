@@ -35,6 +35,13 @@ cat ../../../dotfiles/pre-commit.txt >> pre-commit
 xattr -d com.apple.quarantine pre-commit
 ```
 
+### Remove hooks
+```bash
+cd .git/hooks
+mv pre-commit pre-commit.sample
+cd ../..
+rmdir -r workflows
+```
 
 ## Total file
 - **Don't use indents, change them to spaces**
