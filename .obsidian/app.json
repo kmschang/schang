@@ -1,4 +1,5 @@
 {
   "spellcheck": false,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true
 }

@@ -15,10 +15,11 @@ cd ./workflows
 touch .pre-commit-config.yaml
 cat ../../dotfiles/.pre-commit-config.txt >> .pre-commit-config.yaml
 chmod +x .pre-commit-config.yaml
+cd ..
 ```
 
 
-### Set up the pre-commit hook 
+### Set up the pre-commit hook
 ```bash
 cd .git/hooks
 mv pre-commit.sample pre-commit
