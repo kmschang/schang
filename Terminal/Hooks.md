@@ -3,12 +3,12 @@ https://pre-commit.com/hooks.html
 
 ### Run config script
 ```bash
-bash ~/Dropbox/Programming/dotfiles/configure_hooks.bash
+bash ~/Dropbox/Programming/dotfiles/scripts/configure_hooks.bash
 ```
 
 ### Run remove script
 ```bash
-bash ~/Dropbox/Programming/dotfiles/remove_hooks.bash
+bash ~/Dropbox/Programming/dotfiles/scripts/remove_hooks.bash
 ```
 
 ### Install necessary packages
@@ -28,7 +28,6 @@ cat ../../dotfiles/.pre-commit-config.txt >> .pre-commit-config.yaml
 chmod +x .pre-commit-config.yaml
 cd ..
 ```
-
 
 ### Set up the pre-commit hook
 ```bash
