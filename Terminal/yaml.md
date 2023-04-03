@@ -1,3 +1,9 @@
+### update yaml versions
+```bash
+cd workflows/
+pre-commit autoupdate --bleeding-edge
+```
+
 
 ### pre-commit hooks
 ```
