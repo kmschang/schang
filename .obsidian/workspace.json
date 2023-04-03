@@ -208,12 +208,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2b9551a865a16525",
+  "active": "aa34922382e7841d",
   "lastOpenFiles": [
+    "workflows/pre-commit",
+    "workflows",
+    "configure_hooks.bash",
+    "configure_hooks",
+    "Terminal/Git Commands.md",
+    "Terminal/Hooks.md",
     "pre-commit.txt",
     "Terminal/Vim Commands.md",
-    "Terminal/Hooks.md",
-    "Terminal/Git Commands.md",
     "Terminal/Linux Commands.md",
     "Terminal/SSH Comands.md",
     "Terminal/Java Notes.md",

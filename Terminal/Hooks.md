@@ -1,43 +1,35 @@
 https://pre-commit.com
 https://pre-commit.com/hooks.html
 
-- **Don't use indents, change them to spaces**
 
+### Install necessary packages
 ```bash
-mkdir workflows
-cd ./workflows
 brew install pre-commit
-touch .pre-commit-config.yaml
-```
-- **Copy and past Total file into .pre-commit-config.yaml**
-
-### Pyupgrade
-
-```bash
 python3 -m pip install -U mypy
 ```
 
-add to bottom
-```
--   repo: https://github.com/asottile/pyupgrade
-    rev: v3.3.1
-    hooks:
-    -   id: pyupgrade
-```
-
-### flake8
-
-add to bottom
-```
-- repo: https://github.com/PyCQA/flake8
-  rev: 6.0.0
-  hooks:
-  -   id: flake8
+### Set up the yaml file
+```bash
+mkdir workflows
+cd ./workflows
+touch .pre-commit-config.yaml
+cat ../../dotfiles/.pre-commit-config.txt >> .pre-commit-config.yaml
+chmod +x .pre-commit-config.yaml
 ```
 
+
+### Set up the pre-commit hook 
+```bash
+cd .git/hooks
+mv pre-commit.sample pre-commit
+truncate -s 0 pre-commit
+cat ../../../dotfiles/pre-commit.txt >> pre-commit
+xattr -d com.apple.quarantine pre-commit
+```
 
 
 ## Total file
+- **Don't use indents, change them to spaces**
 ```
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
