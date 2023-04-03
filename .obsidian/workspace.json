@@ -222,6 +222,7 @@
   },
   "active": "2b9551a865a16525",
   "lastOpenFiles": [
+    "workflows/temp.txt",
     "scripts/update_yaml.bash",
     "Terminal/yaml.md",
     "Terminal/Hooks.md",
@@ -236,7 +237,6 @@
     "workflows/pre-commit",
     "configure_hooks.bash",
     "configure_hooks",
-    "pre-commit.txt",
     "Terminal/Vim Commands.md",
     "Terminal/Linux Commands.md",
     "Terminal/SSH Comands.md",
