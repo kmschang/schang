@@ -1,6 +1,11 @@
 https://pre-commit.com
 https://pre-commit.com/hooks.html
 
+### Run config script
+```bash
+bash ~/Dropbox/Programming/dotfiles/configure_hooks.bash
+```
+
 
 ### Install necessary packages
 ```bash
