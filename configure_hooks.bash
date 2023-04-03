@@ -3,6 +3,7 @@
 # Install necessary packages
 brew install pre-commit
 python3 -m pip install -U mypy
+pip install black
 
 # Set up yaml file
 mkdir workflows

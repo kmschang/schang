@@ -11,6 +11,7 @@ bash ~/Dropbox/Programming/dotfiles/configure_hooks.bash
 ```bash
 brew install pre-commit
 python3 -m pip install -U mypy
+pip install black
 ```
 
 ### Set up the yaml file
