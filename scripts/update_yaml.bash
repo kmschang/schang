@@ -17,3 +17,12 @@ mv temp.txt .pre-commit-config.yaml
 
 # change permissions to be executable
 chmod +x .pre-commit-config.yaml
+
+# change directory to root
+cd ..
+
+# add all files to git
+git add .
+
+# commit changes
+git commit -m "updated the pre-commit-config.yaml file"
