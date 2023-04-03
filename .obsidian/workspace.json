@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/yaml.md",
+                "file": "Terminal/Hooks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/yaml.md",
+                "file": "Terminal/Hooks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/yaml.md"
+                "file": "Terminal/Hooks.md"
               }
             }
           }
@@ -220,10 +220,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4054a26a45fccb6a",
+  "active": "2b9551a865a16525",
   "lastOpenFiles": [
-    "Terminal/Hooks.md",
+    "scripts/update_yaml.bash",
     "Terminal/yaml.md",
+    "Terminal/Hooks.md",
     "Terminal/Git Commands.md",
     "Terminal/yaml checks.md",
     "scripts/clang.bash",
