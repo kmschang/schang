@@ -210,8 +210,8 @@
   },
   "active": "aa34922382e7841d",
   "lastOpenFiles": [
-    "workflows/pre-commit",
     "workflows",
+    "workflows/pre-commit",
     "configure_hooks.bash",
     "configure_hooks",
     "Terminal/Git Commands.md",
