@@ -4,6 +4,7 @@
 brew install pre-commit
 python3 -m pip install -U mypy
 pip install black
+brew install clang-format
 
 # Set up yaml file
 mkdir workflows
