@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/Hooks.md",
+                "file": "Terminal/yaml.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,7 +220,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4054a26a45fccb6a",
+  "active": "2b9551a865a16525",
   "lastOpenFiles": [
     "Terminal/yaml.md",
     "Terminal/Hooks.md",
