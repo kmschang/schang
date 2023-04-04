@@ -20,36 +20,48 @@
             }
           },
           {
+            "id": "a4899e9e14607dce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terminal/clang-format.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12b9b8192597e09b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terminal/Ruff.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5fc8fd9ec9351b0b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terminal/flake8.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2b9551a865a16525",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Terminal/Hooks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ee1349f9410a5f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Terminal/Hooks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4899e9e14607dce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Terminal/Ruff.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +128,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/Ruff.md",
+                "file": "Terminal/clang-format.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/Ruff.md",
+                "file": "Terminal/clang-format.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/Ruff.md"
+                "file": "Terminal/clang-format.md"
               }
             }
           }
@@ -246,6 +258,12 @@
   },
   "active": "a4899e9e14607dce",
   "lastOpenFiles": [
+    "Terminal/Hooks.md",
+    "Terminal/Ruff.md",
+    "Terminal/clang-format.md",
+    "Terminal/flake8.md",
+    "scripts/update_ruff.bash",
+    "Terminal/yaml.md",
     "templates/ruff.txt",
     "templates/pre-commit.txt",
     "templates/flake8.txt",
@@ -253,17 +271,11 @@
     "flake8.txt",
     "ruff.txt",
     "Terminal/Java Notes.md",
-    "Terminal/Hooks.md",
     "Terminal/Git Commands.md",
-    "Terminal/clang-format.md",
-    "Terminal/Ruff.md",
-    "Terminal/yaml.md",
     "workflows/temp.txt",
     "scripts/update_yaml.bash",
     "Terminal/yaml checks.md",
     "scripts/clang.bash",
-    "scripts/configure_hooks.bash",
-    "scripts/remove_hooks.bash",
     "Terminal/Vim Commands.md",
     "Terminal/Linux Commands.md",
     "Terminal/SSH Comands.md",

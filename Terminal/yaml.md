@@ -46,7 +46,7 @@ pre-commit autoupdate --bleeding-edge
     -   id: black
 ```
 
-### flake8
+### flake8 (Not using)
 ```
 -   repo: https://github.com/PyCQA/flake8
     rev: 6.0.0

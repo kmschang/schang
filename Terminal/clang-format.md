@@ -1,5 +1,5 @@
 
-download
+install
 ```bash
 brew install clang-format
 ```
