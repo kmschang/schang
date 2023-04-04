@@ -28,7 +28,7 @@ pre-commit autoupdate --bleeding-edge
     -   id: pyupgrade
 ```
 
-### clang-format
+### clang-format (Not using right now)
 **You have to add** fail_fast: false **one the top line before the first repo:**
 ```
 -   repo: https://github.com/pocc/pre-commit-hooks

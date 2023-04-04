@@ -10,7 +10,7 @@ brew install clang-format
 mkdir workflows
 cd ./workflows
 touch .pre-commit-config.yaml
-cat ~/Dropbox/Programming/dotfiles/.pre-commit-config.txt >> .pre-commit-config.yaml
+cat ~/Dropbox/Programming/dotfiles/templates/.pre-commit-config.txt >> .pre-commit-config.yaml
 chmod +x .pre-commit-config.yaml
 cd ..
 
@@ -19,7 +19,7 @@ cd ..
 cd .git/hooks
 mv pre-commit.sample pre-commit
 truncate -s 0 pre-commit
-cat ~/Dropbox/Programming/dotfiles/pre-commit.txt >> pre-commit
+cat ~/Dropbox/Programming/dotfiles/templates/pre-commit.txt >> pre-commit
 chmod +x pre-commit
 xattr -d com.apple.quarantine pre-commit
 cd ../..

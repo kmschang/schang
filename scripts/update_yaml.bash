@@ -7,7 +7,7 @@ cd workflows/
 touch temp.txt
 
 # add pre-commit-config.txt to temp file
-cat ~/Dropbox/Programming/dotfiles/.pre-commit-config.txt >> temp.txt
+cat ~/Dropbox/Programming/dotfiles/templates/.pre-commit-config.txt >> temp.txt
 
 # remove pre-commit-config.yaml
 rm .pre-commit-config.yaml
