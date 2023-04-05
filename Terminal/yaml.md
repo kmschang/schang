@@ -53,3 +53,11 @@ pre-commit autoupdate --bleeding-edge
     hooks:
     -   id: flake8
 ```
+
+### ruff
+```bash
+- repo: https://github.com/charliermarsh/ruff-pre-commit
+  rev: 'v0.0.260'
+  hooks:
+    - id: ruff
+```

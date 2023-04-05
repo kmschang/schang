@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/flake8.md",
+                "file": "Terminal/Ruff.md",
                 "mode": "source",
                 "source": false
               }
@@ -50,6 +50,18 @@
               "type": "markdown",
               "state": {
                 "file": "Terminal/clang-format.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8e432301d7af473",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terminal/black.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -194,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/flake8.md",
+                "file": "Terminal/black.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/flake8.md",
+                "file": "Terminal/black.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/flake8.md"
+                "file": "Terminal/black.md"
               }
             }
           }
@@ -256,30 +268,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a4899e9e14607dce",
+  "active": "c8e432301d7af473",
   "lastOpenFiles": [
-    "scripts/ruff.bash",
-    "scripts/flake8.bash",
-    "scripts/black.bash",
+    "Terminal/flake8.md",
+    "Terminal/black.md",
     "Terminal/clang-format.md",
     "Terminal/Git Commands.md",
     "Terminal/Hooks.md",
+    "Terminal/Java Notes.md",
+    "Terminal/Linux Commands.md",
     "Terminal/Ruff.md",
-    "Terminal/flake8.md",
-    "scripts/update_ruff.bash",
+    "Terminal/SSH Comands.md",
+    "Terminal/Vim Commands.md",
     "Terminal/yaml.md",
+    "scripts/ruff.bash",
+    "scripts/flake8.bash",
+    "scripts/black.bash",
+    "scripts/update_ruff.bash",
     "templates/ruff.txt",
     "templates/pre-commit.txt",
     "templates/flake8.txt",
     "templates",
     "flake8.txt",
     "ruff.txt",
-    "Terminal/Java Notes.md",
-    "workflows/temp.txt",
     "Terminal/yaml checks.md",
-    "Terminal/Vim Commands.md",
-    "Terminal/Linux Commands.md",
-    "Terminal/SSH Comands.md",
     "README.md",
     "2023-02-27.md",
     "Untitled.canvas",
