@@ -74,3 +74,11 @@ pre-commit autoupdate --bleeding-edge
         language: python
         types: [text]
 ```
+
+### unneeded f strings
+```
+-   repo: https://github.com/dannysepler/rm_unneeded_f_str
+    rev: v0.2.0
+    hooks:
+    -   id: rm-unneeded-f-str
+```

@@ -6,7 +6,7 @@ You can automate all of these with the scripts and file watching
 3. Click the '+' button
 4. Hit 'custom'
 5. Name it the name of the script
-6. Change file type to intended file type
+6. Change file type to intended file type (Any, java, python)
 7. Change scope to 'All Changed Files'
 8. Add the script under 'Program'
 9. Click 'OK'
