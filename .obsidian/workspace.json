@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hooks/Linter/codespeller.md",
+                "file": "Hooks/yaml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c105c8ed29e1c917",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terminal/Vim Commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hooks/Linter/codespeller.md",
+                "file": "Terminal/Vim Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hooks/Linter/codespeller.md",
+                "file": "Terminal/Vim Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hooks/Linter/codespeller.md"
+                "file": "Terminal/Vim Commands.md"
               }
             }
           }
@@ -196,22 +208,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa34922382e7841d",
+  "active": "c105c8ed29e1c917",
   "lastOpenFiles": [
-    "scripts/clang-format.bash",
-    "scripts/codespell.bash",
-    "Hooks/Linter/flake8.md",
-    "Hooks/Linter/Ruff.md",
-    "Hooks/Formatter/clang-format.md",
-    "Hooks/Formatter/black.md",
-    "Hooks/Linter/codespeller.md",
-    "Hooks/yaml.md",
-    "Hooks/Hooks.md",
-    "Terminal/Java Notes.md",
-    "Terminal/Vim Commands.md",
     "Terminal/SSH Comands.md",
     "Terminal/Linux Commands.md",
+    "Terminal/Java Notes.md",
     "Terminal/Git Commands.md",
+    "Hooks/yaml.md",
+    "Hooks/Integration with IDE.md",
+    "Hooks/Hooks.md",
+    "Hooks/Formatter/black.md",
+    "Hooks/Formatter/clang-format.md",
+    "Hooks/Linter/codespeller.md",
+    "Hooks/Linter/flake8.md",
+    "Hooks/Linter/Ruff.md",
+    "scripts/clang-format.bash",
+    "scripts/codespell.bash",
+    "Terminal/Vim Commands.md",
     "README.md",
     "scripts/-Permissions.md",
     "Hooks/Linter",
@@ -222,7 +235,6 @@
     "scripts/black.bash",
     "scripts/update_ruff.bash",
     "templates/ruff.txt",
-    "templates/pre-commit.txt",
     "Terminal/yaml checks.md",
     "2023-02-27.md",
     "Untitled.canvas",

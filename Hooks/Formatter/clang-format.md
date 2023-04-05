@@ -13,6 +13,11 @@ I no longer have it in the pre-commit hook but instead can be run standalone
 bash ~/Dropbox/Programming/dotfiles/scripts/clang.bash
 ```
 
+how to execute
+```bash
+clang-format -i <FILE_NAME>
+```
+
 script code
 ```bash
 read varfilename
