@@ -1,3 +1,8 @@
+install instructions
+https://flake8.pycqa.org/en/latest/user/configuration.html
+
+Rules
+https://www.flake8rules.com
 
 install
 ```bash

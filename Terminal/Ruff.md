@@ -1,3 +1,9 @@
+install instructions
+https://beta.ruff.rs/docs/tutorial/
+
+Configure page
+https://beta.ruff.rs/docs/configuration/
+
 
 Install
 ```bash
