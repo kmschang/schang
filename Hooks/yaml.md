@@ -28,14 +28,14 @@ pre-commit autoupdate --bleeding-edge
     -   id: pyupgrade
 ```
 
-### clang-format (Not using right now)
+### clang-format
 **You have to add** fail_fast: false **one the top line before the first repo:**
 ```
 -   repo: https://github.com/pocc/pre-commit-hooks
     rev: master
     hooks:
     -   id: clang-format
-        args: [--style=Google]
+        args: [-i]
 ```
 
 ### Black
@@ -55,9 +55,22 @@ pre-commit autoupdate --bleeding-edge
 ```
 
 ### ruff
-```bash
-- repo: https://github.com/charliermarsh/ruff-pre-commit
-  rev: 'v0.0.260'
-  hooks:
-    - id: ruff
+```
+-   repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: 'v0.0.260'
+    hooks:
+    -   id: ruff
+```
+
+### codespell
+```
+-   repo: https://github.com/codespell-project/codespell
+    rev: v1.16.0
+    hooks:
+    -   id: codespell
+        name: codespell
+        description: Checks for common misspellings in text files.
+        entry: codespell --skip '*.git' -w *.py *.md *.txt *.java
+        language: python
+        types: [text]
 ```

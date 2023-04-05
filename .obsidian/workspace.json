@@ -4,35 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "0d6ef7c2d26183c7",
+        "id": "89d4377d4ae74b4f",
         "type": "tabs",
         "children": [
           {
-            "id": "262f76ba697dcec4",
+            "id": "fe4a4d5cb193719e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/Git Commands.md",
+                "file": "Hooks/Formatter/black.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a4899e9e14607dce",
+            "id": "035b28ff4d21c041",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hooks/Linter/Ruff.md",
+                "file": "Hooks/Linter/codespeller.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "12b9b8192597e09b",
+            "id": "f13b0c2d0fc7637c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hooks/Linter/codespeller.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23cf4109dac8884f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,19 +56,7 @@
             }
           },
           {
-            "id": "5fc8fd9ec9351b0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hooks/Formatter/clang-format.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c8e432301d7af473",
+            "id": "a6399e207efd666b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,93 +66,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3ecee59877316ef5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b9551a865a16525",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hooks/Hooks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4054a26a45fccb6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hooks/yaml.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd202e78ea9c94b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Terminal/Linux Commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b8862b608851b37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Terminal/SSH Comands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69fd6dd2c2357fac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Terminal/Vim Commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7fa8d14d0ac7149",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Terminal/Java Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -218,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Hooks/Linter/codespeller.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Hooks/Linter/codespeller.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Hooks/Linter/codespeller.md"
               }
             }
           }
@@ -280,32 +196,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ecee59877316ef5",
+  "active": "aa34922382e7841d",
   "lastOpenFiles": [
-    "Terminal/SSH Comands.md",
-    "Terminal/Linux Commands.md",
-    "Terminal/Java Notes.md",
-    "Terminal/Git Commands.md",
-    "scripts/-Permissions.md",
-    "Hooks/yaml.md",
-    "Hooks/Hooks.md",
-    "Hooks/Formatter/black.md",
-    "Hooks/Formatter/clang-format.md",
+    "scripts/clang-format.bash",
+    "scripts/codespell.bash",
     "Hooks/Linter/flake8.md",
     "Hooks/Linter/Ruff.md",
+    "Hooks/Formatter/clang-format.md",
+    "Hooks/Formatter/black.md",
+    "Hooks/Linter/codespeller.md",
+    "Hooks/yaml.md",
+    "Hooks/Hooks.md",
+    "Terminal/Java Notes.md",
+    "Terminal/Vim Commands.md",
+    "Terminal/SSH Comands.md",
+    "Terminal/Linux Commands.md",
+    "Terminal/Git Commands.md",
+    "README.md",
+    "scripts/-Permissions.md",
     "Hooks/Linter",
     "Hooks/Formatter",
     "Hooks",
-    "Terminal/Vim Commands.md",
     "scripts/ruff.bash",
     "scripts/flake8.bash",
     "scripts/black.bash",
     "scripts/update_ruff.bash",
     "templates/ruff.txt",
     "templates/pre-commit.txt",
-    "templates/flake8.txt",
     "Terminal/yaml checks.md",
-    "README.md",
     "2023-02-27.md",
     "Untitled.canvas",
     "2022-10-20.md"
