@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/Ruff.md",
+                "file": "Hooks/Linter/Ruff.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/flake8.md",
+                "file": "Hooks/Linter/flake8.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/clang-format.md",
+                "file": "Hooks/Formatter/clang-format.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/black.md",
+                "file": "Hooks/Linter/Ruff.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3ecee59877316ef5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/Hooks.md",
+                "file": "Hooks/Hooks.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/yaml.md",
+                "file": "Hooks/yaml.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -206,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/black.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/black.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/black.md"
+                "file": "README.md"
               }
             }
           }
@@ -268,19 +280,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c8e432301d7af473",
+  "active": "3ecee59877316ef5",
   "lastOpenFiles": [
-    "Terminal/flake8.md",
-    "Terminal/black.md",
-    "Terminal/clang-format.md",
-    "Terminal/Git Commands.md",
-    "Terminal/Hooks.md",
-    "Terminal/Java Notes.md",
-    "Terminal/Linux Commands.md",
-    "Terminal/Ruff.md",
     "Terminal/SSH Comands.md",
+    "Terminal/Linux Commands.md",
+    "Terminal/Java Notes.md",
+    "Terminal/Git Commands.md",
+    "scripts/-Permissions.md",
+    "Hooks/yaml.md",
+    "Hooks/Hooks.md",
+    "Hooks/Formatter/black.md",
+    "Hooks/Formatter/clang-format.md",
+    "Hooks/Linter/flake8.md",
+    "Hooks/Linter/Ruff.md",
+    "Hooks/Linter",
+    "Hooks/Formatter",
+    "Hooks",
     "Terminal/Vim Commands.md",
-    "Terminal/yaml.md",
     "scripts/ruff.bash",
     "scripts/flake8.bash",
     "scripts/black.bash",
@@ -288,9 +304,6 @@
     "templates/ruff.txt",
     "templates/pre-commit.txt",
     "templates/flake8.txt",
-    "templates",
-    "flake8.txt",
-    "ruff.txt",
     "Terminal/yaml checks.md",
     "README.md",
     "2023-02-27.md",

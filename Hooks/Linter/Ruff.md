@@ -45,3 +45,8 @@ cd "$(dirname "$0")/.."
 # Format the code.
 ruff .
 ```
+
+add permissions to script
+```bash
+chmod +x <FILE_NAME>
+```

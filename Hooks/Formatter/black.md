@@ -1,7 +1,7 @@
 
 install
 ```bash
-brew install black
+pip install black
 ```
 
 black script
@@ -18,4 +18,9 @@ cd "$(dirname "$0")/.."
 
 # Format the code.
 black .
+```
+
+add permissions to script
+```bash
+chmod +x <FILE_NAME>
 ```

@@ -34,3 +34,8 @@ cd "$(dirname "$0")/.."
 # Format the code.
 flake8 .
 ```
+
+add permissions to script
+```bash
+chmod +x <FILE_NAME>
+```

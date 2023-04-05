@@ -21,3 +21,8 @@ cat temp.txt >> $varfilename
 rm temp.txt
 chmod -x $varfilename
 ```
+
+add permissions to script
+```bash
+chmod +x <FILE_NAME>
+```
