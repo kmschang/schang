@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/Ruff.md",
+                "file": "Terminal/flake8.md",
                 "mode": "source",
                 "source": false
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/Ruff.md",
+                "file": "Terminal/flake8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/Ruff.md",
+                "file": "Terminal/flake8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/Ruff.md"
+                "file": "Terminal/flake8.md"
               }
             }
           }
@@ -258,10 +258,14 @@
   },
   "active": "a4899e9e14607dce",
   "lastOpenFiles": [
+    "scripts/ruff.bash",
+    "scripts/flake8.bash",
+    "scripts/black.bash",
     "Terminal/clang-format.md",
-    "Terminal/flake8.md",
-    "Terminal/Ruff.md",
+    "Terminal/Git Commands.md",
     "Terminal/Hooks.md",
+    "Terminal/Ruff.md",
+    "Terminal/flake8.md",
     "scripts/update_ruff.bash",
     "Terminal/yaml.md",
     "templates/ruff.txt",
@@ -271,11 +275,8 @@
     "flake8.txt",
     "ruff.txt",
     "Terminal/Java Notes.md",
-    "Terminal/Git Commands.md",
     "workflows/temp.txt",
-    "scripts/update_yaml.bash",
     "Terminal/yaml checks.md",
-    "scripts/clang.bash",
     "Terminal/Vim Commands.md",
     "Terminal/Linux Commands.md",
     "Terminal/SSH Comands.md",
