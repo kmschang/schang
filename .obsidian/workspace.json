@@ -234,10 +234,10 @@
   },
   "active": "d8a1c8fdc736a61e",
   "lastOpenFiles": [
-    "Hooks/Hooks.md",
     "Hooks/Integration with IDE.md",
-    "Hooks/yaml.md",
     "README.md",
+    "Hooks/Hooks.md",
+    "Hooks/yaml.md",
     "Hooks/Linter/Ruff.md",
     "Hooks/Linter/flake8.md",
     "Hooks/Linter/codespeller.md",
