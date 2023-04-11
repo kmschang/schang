@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/Java/Java Colors.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/Java/Java Colors.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/Java/Java Colors.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/Java/Java Colors.md"
+                "file": "README.md"
               }
             }
           }
@@ -232,27 +232,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa34922382e7841d",
+  "active": "d8a1c8fdc736a61e",
   "lastOpenFiles": [
+    "Hooks/Hooks.md",
+    "Hooks/Integration with IDE.md",
     "Hooks/yaml.md",
+    "README.md",
+    "Hooks/Linter/Ruff.md",
+    "Hooks/Linter/flake8.md",
+    "Hooks/Linter/codespeller.md",
+    "Hooks/Formatter/unneeded f string (Python).md",
+    "Hooks/Formatter/clang-format.md",
+    "Hooks/Formatter/black.md",
     "Terminal/Java/Java Colors.md",
     "Terminal/Java",
-    "Hooks/Formatter/unneeded f string (Python).md",
-    "Hooks/Formatter/black.md",
-    "Hooks/Linter/codespeller.md",
-    "Hooks/Integration with IDE.md",
     "Terminal/Vim Commands.md",
     "Terminal/SSH Comands.md",
     "Terminal/Linux Commands.md",
     "Terminal/Java/Java Notes.md",
     "Terminal/Git Commands.md",
-    "Hooks/Hooks.md",
-    "Hooks/Formatter/clang-format.md",
-    "Hooks/Linter/flake8.md",
-    "Hooks/Linter/Ruff.md",
     "scripts/clang-format.bash",
     "scripts/codespell.bash",
-    "README.md",
     "scripts/-Permissions.md",
     "Hooks/Linter",
     "Hooks/Formatter",
