@@ -1,8 +1,8 @@
 
 #### Changing author of account
 ```bash
-git config --global user.name "USERNAME"
-git config --global user.email EMAIL
+git config --global user.name "USERNAME"     #"Kyle Schang"
+git config --global user.email EMAIL         #Kyle@schang.net
 ```
 
 
