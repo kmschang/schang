@@ -55,11 +55,13 @@ add gpg config file
 ```bash
 cd ~
 touch gpg-agent.conf
-cat ~/Dropbox/Programming/dotfiles/templates/gpg.txt >> gpg-agent.config
+cat ~/Dropbox/Programming/dotfiles/templates/gpg.txt >> gpg-agent.conf
 ```
 
 
 How to delete GPG key (ONLY IF NECESSARY)
 ```bash
 gpg --delete-key <GPG KEY ID>
+#  ---- or ----  #
+gpg --delete-key <EMAIL>
 ```
