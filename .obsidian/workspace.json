@@ -61,19 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/Git Commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b152d9fcab1e915",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Terminal/GPG.md",
+                "file": "Hooks/Hooks.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -182,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/GPG.md",
+                "file": "Hooks/Hooks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/GPG.md",
+                "file": "Hooks/Hooks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/GPG.md"
+                "file": "Hooks/Hooks.md"
               }
             }
           }
@@ -244,12 +232,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b152d9fcab1e915",
+  "active": "d8a1c8fdc736a61e",
   "lastOpenFiles": [
-    "templates/gpg.txt",
-    "Terminal/Git Commands.md",
-    "Terminal/GPG.md",
+    "Hooks/Integration with IDE.md",
     "Hooks/Hooks.md",
+    "Hooks/yaml.md",
+    "Terminal/Git Commands.md",
+    "Terminal/().md",
+    "Terminal/GPG.md",
+    "templates/gpg.txt",
     "Hooks/Linter/Ruff.md",
     "Hooks/Linter/flake8.md",
     "Hooks/Linter/codespeller.md",
@@ -259,8 +250,6 @@
     "Terminal/Java/Java Colors.md",
     "templates/clang-format.txt",
     "README.md",
-    "Hooks/yaml.md",
-    "Hooks/Integration with IDE.md",
     "Terminal/Java",
     "Terminal/Vim Commands.md",
     "Terminal/SSH Comands.md",
@@ -274,7 +263,6 @@
     "Hooks",
     "scripts/ruff.bash",
     "scripts/flake8.bash",
-    "scripts/black.bash",
     "Terminal/yaml checks.md",
     "2023-02-27.md",
     "Untitled.canvas",

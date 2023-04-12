@@ -7,7 +7,7 @@ brew install pre-commit
 python3 -m pip install -U mypy
 ```
 
-### Set up the yaml file
+### [Set up the yaml file](yaml)
 ```bash
 mkdir workflows
 cd ./workflows
