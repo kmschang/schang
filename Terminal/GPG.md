@@ -18,3 +18,14 @@ create full key
 ```bash
 gpg --full-generate-key
 ```
+
+
+
+
+
+add gpg config file
+```bash
+cd ~
+touch gpg-agent.conf
+cat ~/Dropbox/Programming/dotfiles/templates/gpg.txt >> gpg-agent.config
+```
