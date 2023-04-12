@@ -3,6 +3,7 @@ congif video
 https://www.youtube.com/watch?v=1vVIpIvboSg
 https://www.youtube.com/watch?v=Y3mLBTCiccs
 https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key
+https://huggingface.co/docs/hub/security-gpg
 
 install GPG
 ```bash
@@ -58,4 +59,10 @@ add gpg config file
 cd ~
 touch gpg-agent.conf
 cat ~/Dropbox/Programming/dotfiles/templates/gpg.txt >> gpg-agent.config
+```
+
+
+How to delete GPG key (ONLY IF NECESSARY)
+```bash
+gpg --delete-key <GPG KEY ID>
 ```

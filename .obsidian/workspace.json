@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hooks/Hooks.md",
+                "file": "Terminal/GPG.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hooks/Hooks.md",
+                "file": "Terminal/GPG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hooks/Hooks.md",
+                "file": "Terminal/GPG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hooks/Hooks.md"
+                "file": "Terminal/GPG.md"
               }
             }
           }
@@ -234,8 +234,8 @@
   },
   "active": "d8a1c8fdc736a61e",
   "lastOpenFiles": [
-    "Hooks/Integration with IDE.md",
     "Hooks/Hooks.md",
+    "Hooks/Integration with IDE.md",
     "Hooks/yaml.md",
     "Terminal/Git Commands.md",
     "Terminal/().md",
