@@ -24,12 +24,14 @@ display keys
 ```bash
 gpg --list-secret-keys --keyid-format=long
 ```
-- find the key you want to use and copy the ID found after the 4096R/
+- find the key you want to use and copy the ID found after the 4096R/... --> That is you GPG KEY ID
 
 show public key
 ```bash
 gpg --armor --export <GPG KEY ID>
 ```
+
+- copy and paste key into github under GPG keys. Make sure to include the part about -----being----- and ------end------
 
 setting key with github
 ```bash
@@ -42,17 +44,12 @@ turn on autosign
 git config --global commit.gpgsign true
 ```
 
-
 install necessary agents
 ```bash
 brew install pinentry-mac
 echo "pinentry-program $(which pinentry-mac)" >> ~/.gnupg/gpg-agent.conf
 killall gpg-agent
 ```
-
-
-now all you need to do is add keys to [github.com]()
-
 
 add gpg config file
 ```bash
