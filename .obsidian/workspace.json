@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/Git Commands.md",
+                "file": "Hooks/Hooks.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/Git Commands.md",
+                "file": "Hooks/Hooks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/Git Commands.md",
+                "file": "Hooks/Hooks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/Git Commands.md"
+                "file": "Hooks/Hooks.md"
               }
             }
           }
@@ -234,24 +234,24 @@
   },
   "active": "d8a1c8fdc736a61e",
   "lastOpenFiles": [
-    "Hooks/Formatter/clang-format.md",
-    "Terminal/Java/Java Colors.md",
-    "templates/clang-format.txt",
-    "README.md",
-    "Hooks/Formatter/black.md",
-    "Hooks/yaml.md",
-    "Hooks/Integration with IDE.md",
-    "Hooks/Hooks.md",
     "Hooks/Linter/Ruff.md",
     "Hooks/Linter/flake8.md",
     "Hooks/Linter/codespeller.md",
     "Hooks/Formatter/unneeded f string (Python).md",
+    "Hooks/Formatter/clang-format.md",
+    "Hooks/Formatter/black.md",
+    "Terminal/Git Commands.md",
+    "Terminal/Java/Java Colors.md",
+    "templates/clang-format.txt",
+    "README.md",
+    "Hooks/yaml.md",
+    "Hooks/Integration with IDE.md",
+    "Hooks/Hooks.md",
     "Terminal/Java",
     "Terminal/Vim Commands.md",
     "Terminal/SSH Comands.md",
     "Terminal/Linux Commands.md",
     "Terminal/Java/Java Notes.md",
-    "Terminal/Git Commands.md",
     "scripts/clang-format.bash",
     "scripts/codespell.bash",
     "scripts/-Permissions.md",
