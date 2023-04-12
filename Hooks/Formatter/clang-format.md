@@ -1,11 +1,22 @@
 
 configuration
 https://clang.llvm.org/docs/ClangFormat.html
+https://bcain-llvm.readthedocs.io/projects/clang/en/latest/ClangFormatStyleOptions/
 
 
 install
 ```bash
 brew install clang-format
+```
+
+add config file in root directory
+```bash
+touch .clang-format
+```
+
+add to config file
+```bash
+cat ~/Dropbox/Programming/dotfiles/templates/clang-format.txt >> .clang-format
 ```
 
 I no longer have it in the pre-commit hook but instead can be run standalone
@@ -16,19 +27,6 @@ bash ~/Dropbox/Programming/dotfiles/scripts/clang.bash
 how to execute
 ```bash
 clang-format -i <FILE_NAME>
-```
-
-script code
-```bash
-read varfilename
-cd ~/Dropbox/Programming/Java/src
-chmod +x $varfilename
-touch temp.txt
-clang-format -style=file $varfilename > temp.txt
-truncate -s 0 $varfilename
-cat temp.txt >> $varfilename
-rm temp.txt
-chmod -x $varfilename
 ```
 
 secondary script code

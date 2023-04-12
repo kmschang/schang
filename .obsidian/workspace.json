@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Hooks/Formatter/clang-format.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Hooks/Formatter/clang-format.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Hooks/Formatter/clang-format.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Hooks/Formatter/clang-format.md"
               }
             }
           }
@@ -234,17 +234,18 @@
   },
   "active": "d8a1c8fdc736a61e",
   "lastOpenFiles": [
-    "Hooks/Integration with IDE.md",
+    "Terminal/Java/Java Colors.md",
+    "Hooks/Formatter/clang-format.md",
+    "templates/clang-format.txt",
     "README.md",
-    "Hooks/Hooks.md",
+    "Hooks/Formatter/black.md",
     "Hooks/yaml.md",
+    "Hooks/Integration with IDE.md",
+    "Hooks/Hooks.md",
     "Hooks/Linter/Ruff.md",
     "Hooks/Linter/flake8.md",
     "Hooks/Linter/codespeller.md",
     "Hooks/Formatter/unneeded f string (Python).md",
-    "Hooks/Formatter/clang-format.md",
-    "Hooks/Formatter/black.md",
-    "Terminal/Java/Java Colors.md",
     "Terminal/Java",
     "Terminal/Vim Commands.md",
     "Terminal/SSH Comands.md",
@@ -260,7 +261,6 @@
     "scripts/ruff.bash",
     "scripts/flake8.bash",
     "scripts/black.bash",
-    "scripts/update_ruff.bash",
     "Terminal/yaml checks.md",
     "2023-02-27.md",
     "Untitled.canvas",
