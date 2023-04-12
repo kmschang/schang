@@ -68,6 +68,18 @@
             }
           },
           {
+            "id": "5b152d9fcab1e915",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terminal/GPG.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f13b0c2d0fc7637c",
             "type": "leaf",
             "state": {
@@ -104,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -170,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/Git Commands.md",
+                "file": "Terminal/GPG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/Git Commands.md",
+                "file": "Terminal/GPG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/Git Commands.md"
+                "file": "Terminal/GPG.md"
               }
             }
           }
@@ -232,8 +244,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d8a1c8fdc736a61e",
+  "active": "5b152d9fcab1e915",
   "lastOpenFiles": [
+    "Terminal/Git Commands.md",
+    "Terminal/GPG.md",
     "Hooks/Hooks.md",
     "Hooks/Linter/Ruff.md",
     "Hooks/Linter/flake8.md",
@@ -241,7 +255,6 @@
     "Hooks/Formatter/unneeded f string (Python).md",
     "Hooks/Formatter/clang-format.md",
     "Hooks/Formatter/black.md",
-    "Terminal/Git Commands.md",
     "Terminal/Java/Java Colors.md",
     "templates/clang-format.txt",
     "README.md",
