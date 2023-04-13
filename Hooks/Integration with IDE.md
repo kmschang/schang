@@ -1,3 +1,4 @@
+#hook
 
 You can automate all of these with the scripts and file watching
 

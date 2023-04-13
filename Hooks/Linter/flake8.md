@@ -1,3 +1,5 @@
+#linter #git #hook
+
 install instructions
 https://flake8.pycqa.org/en/latest/user/configuration.html
 
@@ -37,5 +39,5 @@ flake8 .
 
 add permissions to script
 ```bash
-chmod +x <FILE_NAME>
+chmod +x <filename>
 ```

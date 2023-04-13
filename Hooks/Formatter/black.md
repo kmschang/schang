@@ -1,3 +1,4 @@
+#formatter #git #hook
 
 install
 ```bash
@@ -22,5 +23,5 @@ black .
 
 add permissions to script
 ```bash
-chmod +x <FILE_NAME>
+chmod +x <filename>
 ```

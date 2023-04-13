@@ -1,42 +1,22 @@
+#java
 
-How to change the colors on text in java
+### Text Color
 
-### White
-```
-\u001B[37m
-```
+White
+```java
+\u001B[37m       //White
 
-### Red
-```
-\u001B[31m
-```
+\u001B[31m       //Red
 
-### Yellow
-```
-\u001B[33m
-```
+\u001B[33m       //Yellow
 
-### Green
-```
-\u001B[32m
-```
+\u001B[32m       //Green
 
-### Blue
-```
-\u001B[34m
-```
+\u001B[34m       //Blue
 
-### Cyan
-```
-\u001B[36m
-```
+\u001B[36m       //Cyan
 
-### Purple
-```
-\u001B[35m
-```
+\u001B[35m       //Purple
 
-### Black
-```
-\u001B[30m
+\u001B[30m       //Black
 ```

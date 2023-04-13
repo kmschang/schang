@@ -1,17 +1,22 @@
 
 ## Encrypt a file
 
-Encrypting a file with GPG
+### Encrypting a file
 ```bash
-$ gpg -r <RECIPIENT> -e <FILE_NAME>
+gpg -r <recipient> -e <filename>
 ```
-- RECIPIENT is who you want to encrypt it for
+- `recipient`  is who you want to encrypt it for
 	- to encrypt it for yourself set the recipient to the email used on the key
-- FILE_NAME is what file you want to encrypt
+- `filename` is what file you want to encrypt
 
-
+### Encrypting a file with password
+```bash
+gpg --symmetric <filename>
+```
+- `filename` is what file you want to encrypt
+-
 ### Decrypt a file
 ```bash
-$ gpg -d <FILE_NAME>.gpg
+gpg -d <filename.gpg>
 ```
-- FILE_NAME is the file that you want to decrypt
+- `filename` is the file that you want to decrypt

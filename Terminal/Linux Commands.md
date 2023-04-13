@@ -1,3 +1,4 @@
+#linux
 
 ## Navigation
 
@@ -33,7 +34,7 @@
 - mkdir - make new directory
 	- rm -fr - to remove if directory has contents
 - rmdir - remove directory
-- 
+-
 
 
 ## Device Manipulation
@@ -42,7 +43,7 @@
 - Sudo reboot - reboots device
 - Sudo shutdown -h now - shuts down the device instantly
 - Sudo shutdown -h now -r - shuts down device instantly then restarts
-- 
+-
 
 ## Python
 
@@ -53,7 +54,7 @@
 
 - ifconfig - find info on device
 - ping - pings device
-- ssh - remotly use  
+- ssh - remotly use
 
 
 ## Other Commands

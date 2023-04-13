@@ -1,3 +1,4 @@
+#linux
 
 ## Invoke Vim/Vi
 
@@ -27,7 +28,7 @@ vi FILE
 - i - insert before cursur
 - I - insert at the beginning of the line
 - a - append text after the cursur
-- A - apend test at the end of the line
+- A - append test at the end of the line
 - cs - Change the current word
 - C - replace characters on current line
 - cc - delete line and start typing

@@ -1,3 +1,4 @@
+#formatter  #git  #hook
 
 configuration
 https://clang.llvm.org/docs/ClangFormat.html
@@ -26,7 +27,7 @@ bash ~/Dropbox/Programming/dotfiles/scripts/clang.bash
 
 how to execute
 ```bash
-clang-format -i <FILE_NAME>
+clang-format -i <filename>
 ```
 
 secondary script code
@@ -47,5 +48,5 @@ clang-format -i ~/Dropbox/Programming/Java/src/*.java
 
 add permissions to script
 ```bash
-chmod +x <FILE_NAME>
+chmod +x <filename>
 ```

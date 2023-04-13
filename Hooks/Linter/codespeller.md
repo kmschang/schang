@@ -1,3 +1,4 @@
+#linter #git #hook
 
 github
 https://github.com/codespell-project/codespell
@@ -13,12 +14,12 @@ pip install codespell
 
 use
 ```bash
-codespell <FILE_NAME>
+codespell <filename>
 ```
 
 find error and change
 ```bash
-codespell -w <FILE_NAME>
+codespell -w <filename>
 ```
 
 normal commang

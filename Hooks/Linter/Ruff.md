@@ -1,3 +1,5 @@
+#linter #git #hook
+
 install instructions
 https://beta.ruff.rs/docs/tutorial/
 
@@ -22,12 +24,12 @@ cat ~/Dropbox/Programming/dotfiles/templates/ruff.txt >> pyproject.toml
 
 run ruff
 ```bash
-ruff <FILE_NAME>
+ruff <filename>
 ```
 
 fix some errors
 ```bash
-ruff <FILE_NAME> --fix
+ruff <filename> --fix
 ```
 
 ruff script
@@ -48,5 +50,5 @@ ruff .
 
 add permissions to script
 ```bash
-chmod +x <FILE_NAME>
+chmod +x <filename>
 ```

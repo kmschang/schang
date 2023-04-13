@@ -1,3 +1,5 @@
+#hook  #git #linux
+
 https://pre-commit.com
 https://pre-commit.com/hooks.html
 

@@ -11,26 +11,26 @@ https://www.youtube.com/watch?v=DMGIlj7u7Eo
 
 install GPG
 ```bash
-$ brew install gnupg
+brew install gnupg
 ```
 
 change permissions
 ```bash
-$ chmod 0700 .gnupg
+chmod 0700 .gnupg
 ```
 
 install necessary agents
 ```bash
-$ brew install pinentry-mac
-$ echo "pinentry-program $(which pinentry-mac)" >> ~/.gnupg/gpg-agent.conf
-$ killall gpg-agent
+brew install pinentry-mac
+echo "pinentry-program $(which pinentry-mac)" >> ~/.gnupg/gpg-agent.conf
+killall gpg-agent
 ```
 
 add GPG config file
 ```bash
-$ cd ~
-$ touch gpg-agent.conf
-$ cat ~/Dropbox/Programming/dotfiles/templates/gpg.txt >> gpg-agent.conf
+cd ~
+touch gpg-agent.conf
+cat ~/Dropbox/Programming/dotfiles/templates/gpg.txt >> gpg-agent.conf
 ```
 
 
@@ -38,7 +38,7 @@ $ cat ~/Dropbox/Programming/dotfiles/templates/gpg.txt >> gpg-agent.conf
 
 adding a GPG key
 ```bash
-$ gpg --full-generate-key
+gpg --full-generate-key
 ```
 - Choose which settings to use by using the keypad
 
@@ -47,24 +47,24 @@ $ gpg --full-generate-key
 
 display keys
 ```bash
-$ gpg --list-secret-keys --keyid-format=long
+gpg --list-secret-keys --keyid-format=long
 ```
 - find the key you want to use and copy the ID
 
 show public key
 ```bash
-$ gpg --armor --export <GPG KEY ID>
+gpg --armor --export $KEYID
 ```
 
 - copy and paste key into github under GPG keys. Make sure to include the part about -----being----- and ------end------
 
 setting key with github
 ```bash
-$ git config --global --unset gpg.format
-$ git config --global user.signingkey <GPG KEY ID>
+git config --global --unset gpg.format
+git config --global user.signingkey $KEYID
 ```
 
 turn on autosign
 ```bash
-$ git config --global commit.gpgsign true
+git config --global commit.gpgsign true
 ```
