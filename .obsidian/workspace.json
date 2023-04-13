@@ -73,10 +73,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/GPG/GPG.md",
+                "file": "Terminal/GPG/Create GPG.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "ca3046bd03ea9c6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terminal/GPG/GPG Encryptions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45258bd330d751e5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -116,7 +136,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -182,7 +202,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/GPG/GPG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +218,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/GPG/GPG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,9 +239,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Terminal/GPG/GPG.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -244,9 +260,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dbe6d98dfa98f2a8",
+  "active": "45258bd330d751e5",
   "lastOpenFiles": [
     "Terminal/GPG/Create GPG.md",
+    "Terminal/GPG/Other GPG notes.md",
+    "README.md",
+    "Terminal/GPG/GPG Encryptions.md",
     "Terminal/GPG/GPG.md",
     "Terminal/GPG",
     "Hooks/Hooks.md",
@@ -263,7 +282,6 @@
     "Hooks/Formatter/black.md",
     "Terminal/Java/Java Colors.md",
     "templates/clang-format.txt",
-    "README.md",
     "Terminal/Java",
     "Terminal/Vim Commands.md",
     "Terminal/SSH Comands.md",
