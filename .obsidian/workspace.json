@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/GPG/Create GPG.md",
+                "file": "Terminal/GPG/GPG.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/GPG/Create GPG.md",
+                "file": "Terminal/GPG/GPG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/GPG/Create GPG.md",
+                "file": "Terminal/GPG/GPG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/GPG/Create GPG.md"
+                "file": "Terminal/GPG/GPG.md"
               }
             }
           }
@@ -246,8 +246,8 @@
   },
   "active": "dbe6d98dfa98f2a8",
   "lastOpenFiles": [
-    "Terminal/GPG/GPG.md",
     "Terminal/GPG/Create GPG.md",
+    "Terminal/GPG/GPG.md",
     "Terminal/GPG",
     "Hooks/Hooks.md",
     "Hooks/Integration with IDE.md",
