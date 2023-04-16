@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/GPG/GPG (Dad's Notes).md",
+                "file": "Terminal/ZSH.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/GPG/GPG (Dad's Notes).md",
+                "file": "Terminal/ZSH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/GPG/GPG (Dad's Notes).md",
+                "file": "Terminal/ZSH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/GPG/GPG (Dad's Notes).md"
+                "file": "Terminal/ZSH.md"
               }
             }
           }
@@ -187,10 +187,10 @@
   "active": "dbe6d98dfa98f2a8",
   "lastOpenFiles": [
     "Terminal/GPG/GPG.md",
+    "Terminal/GPG/GPG (Dad's Notes).md",
     "Terminal/GPG/Create GPG.md",
     "Terminal/GPG/Other GPG notes.md",
     "Terminal/GPG/GPG Encryptions.md",
-    "Terminal/GPG/GPG (Dad's Notes).md",
     "templates/gpg-agent.txt",
     "templates/gpg.txt",
     "templates/gpg_agent.txt",
