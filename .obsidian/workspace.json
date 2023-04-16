@@ -44,18 +44,6 @@
             }
           },
           {
-            "id": "b42965e30cc80254",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Terminal/GPG/GPG (Dad's Notes).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a6399e207efd666b",
             "type": "leaf",
             "state": {
@@ -68,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,12 +184,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b42965e30cc80254",
+  "active": "dbe6d98dfa98f2a8",
   "lastOpenFiles": [
+    "Terminal/GPG/GPG.md",
     "Terminal/GPG/Create GPG.md",
-    "Terminal/GPG/GPG (Dad's Notes).md",
-    "Terminal/GPG/GPG Encryptions.md",
     "Terminal/GPG/Other GPG notes.md",
+    "Terminal/GPG/GPG Encryptions.md",
+    "Terminal/GPG/GPG (Dad's Notes).md",
+    "templates/gpg-agent.txt",
+    "templates/gpg.txt",
+    "templates/gpg_agent.txt",
     "Terminal/ZSH.md",
     "Hooks/Formatter/black.md",
     "Untitled.canvas",
@@ -221,20 +213,15 @@
     "Terminal/Linux Commands.md",
     "Terminal/SSH Comands.md",
     "Terminal/Vim Commands.md",
-    "Terminal/GPG/GPG.md",
     "README.md",
     "Terminal/GPG",
     "Terminal/().md",
-    "templates/gpg.txt",
     "templates/clang-format.txt",
     "Terminal/Java",
     "scripts/clang-format.bash",
     "scripts/codespell.bash",
     "scripts/-Permissions.md",
     "Hooks/Linter",
-    "Hooks/Formatter",
-    "Hooks",
-    "scripts/ruff.bash",
-    "Terminal/yaml checks.md"
+    "Hooks/Formatter"
   ]
 }

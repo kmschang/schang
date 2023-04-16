@@ -1,0 +1,3 @@
+pinentry-program /opt/homebrew/bin/pinentry-mac
+deafault-cache-ttl 604800
+max-cache-ttl 604800
