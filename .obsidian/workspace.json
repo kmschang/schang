@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/GPG/Create GPG.md",
+                "file": "Terminal/GPG/GPG (Dad's Notes).md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/GPG/Create GPG.md",
+                "file": "Terminal/GPG/GPG (Dad's Notes).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/GPG/Create GPG.md",
+                "file": "Terminal/GPG/GPG (Dad's Notes).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/GPG/Create GPG.md"
+                "file": "Terminal/GPG/GPG (Dad's Notes).md"
               }
             }
           }
@@ -198,8 +198,8 @@
   },
   "active": "b42965e30cc80254",
   "lastOpenFiles": [
-    "Terminal/GPG/GPG (Dad's Notes).md",
     "Terminal/GPG/Create GPG.md",
+    "Terminal/GPG/GPG (Dad's Notes).md",
     "Terminal/GPG/GPG Encryptions.md",
     "Terminal/GPG/Other GPG notes.md",
     "Terminal/ZSH.md",
