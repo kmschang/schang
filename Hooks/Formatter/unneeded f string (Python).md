@@ -7,8 +7,3 @@ install
 ```bash
 pip install rm_unneeded_f_str
 ```
-
-Other
-```bash
-cd ~
-```
