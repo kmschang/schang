@@ -1,7 +1,7 @@
 # GPG/PGP
 
-[YubiKey Guide](https://github.com/drduh/YubiKey-Guide/tree/fc6f9eb80d5eee4057f194b5859ae438e4e9a2d9)
-[Best Practices](https://riseup.net/en/security/message-security/openpgp/gpg-best-practices)
+[YubiKey Guide][1]
+[Best Practices][2]
 
 ## Create keys
 ### Generate master key in expert mode
@@ -68,7 +68,7 @@ gpg --expert --edit-key $KEYID
 ```
 - expire (change primary key)
 - expire
-- key * (select all subkeys)
+- key \* (select all subkeys)
 - expire
 - save
 
@@ -103,8 +103,6 @@ gpg --export-secret-subkeys --armor <keyid> > <keyid>.pri_sub.asc (BrianSchang_0
 gpg --export-secret-subkeys --armor 066BB923 > D4969B4F066BB923.pri_sub.asc
 # primary secret key is made useless
 # this is the one we want to import and the move subkeys to Yubikey
-```
-```bash
 export KEYID=BD4078F36FAAF9B9
 gpg --export --armor $KEYID > $KEYID.pub.asc ;
 gpg --export-secret-keys --armor $KEYID > $KEYID.pri.asc ;
@@ -127,10 +125,11 @@ gpg --import BrianSchang_066BB923.pri.asc
 - should delete this key and replacd with only subkeys after signing (see below)
 
 ### Import only secret subkeys (import only the private subkeys)
-```bash
+````bash
 gpg --import <keyid>.pri_sub.asc
 gpg --import BrianSchang_066BB923.pri_sub.asc
-``````
+```
+````
 - remember to move subkeys to the card (leaving only the stub in the database itself)
 - primary secret key will not be imported (since importing file created with —export-secret-subkeys)
 - primary secret key will not be imported thus will be unable to sign other keys
@@ -164,7 +163,7 @@ gpg --export-options export-minimal --export D4969B4F066BB923 | gpg --list-packe
 
 ### Key server
 
-[hkps://hkps.pool.sks-keyservers.net](hkps://hkps.pool.sks-keyservers.net)
+[hkps://hkps.pool.sks-keyservers.net][3]
 ```bash
 gpg --keyserver hkp://keys.openpgp.org --search-key 'brian@schang.net'
 gpg --keyserver hkp://pool.sks-keyservers.net --search-key 'brian@schang.net'
@@ -245,8 +244,8 @@ gpg --list-sigs # lists keys and signatures
 - sec = secret key
 - sub = subkey (secondary key)
 - ssb = secret subkey
--  # = key is not usable; taken offline (e.g. private key not available; used —export-secret-subkeys)
--  > = key is stored on smartcard (e.g. stub only; not stored on computer; need Yubikey)
+-  \# = key is not usable; taken offline (e.g. private key not available; used —export-secret-subkeys)
+-  \> = key is stored on smartcard (e.g. stub only; not stored on computer; need Yubikey)
 
 ## Deleting keys
 ```bash
@@ -267,3 +266,7 @@ gpg --edit-key <keyid>
 gpg --update-trustdb # update web of trust
 gpg --print-mds <filename> # print message digests using all available algorithms
 ```
+
+[1]:	https://github.com/drduh/YubiKey-Guide/tree/fc6f9eb80d5eee4057f194b5859ae438e4e9a2d9
+[2]:	https://riseup.net/en/security/message-security/openpgp/gpg-best-practices
+[3]:	hkps://hkps.pool.sks-keyservers.net
