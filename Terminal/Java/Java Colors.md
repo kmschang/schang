@@ -1,8 +1,7 @@
 #java
 
-### Text Color
+### Text Colors
 
-White
 ```java
 \u001B[37m       //White
 

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hooks/Formatter/unneeded f string (Python).md",
+                "file": "Terminal/GPG/GPG.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hooks/Formatter/unneeded f string (Python).md",
+                "file": "Terminal/GPG/GPG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hooks/Formatter/unneeded f string (Python).md",
+                "file": "Terminal/GPG/GPG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hooks/Formatter/unneeded f string (Python).md"
+                "file": "Terminal/GPG/GPG.md"
               }
             }
           }
@@ -186,17 +186,17 @@
   },
   "active": "dbe6d98dfa98f2a8",
   "lastOpenFiles": [
+    "Terminal/Java/Java Colors.md",
     "Terminal/GPG/GPG.md",
+    "Hooks/Formatter/unneeded f string (Python).md",
     "Hooks/Hooks.md",
     "Hooks/Integration with IDE.md",
     "Hooks/Linter/Ruff.md",
     "Hooks/Linter/flake8.md",
     "Hooks/Linter/codespeller.md",
-    "Hooks/Formatter/unneeded f string (Python).md",
     "Hooks/Formatter/clang-format.md",
     "Hooks/Formatter/black.md",
     "Terminal/GPG/GPG (Dad's Notes).md",
-    "Terminal/Java/Java Colors.md",
     "Terminal/Java/Java Notes.md",
     "Terminal/Git Commands.md",
     "Terminal/Linux Commands.md",
