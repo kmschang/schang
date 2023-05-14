@@ -44,6 +44,18 @@
             }
           },
           {
+            "id": "acaac98c03d98f19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terminal/Vim Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a6399e207efd666b",
             "type": "leaf",
             "state": {
@@ -56,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -101,6 +113,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "7b4a9b1a25fb34dd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -122,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/Linux Commands.md",
+                "file": "Terminal/Vim Commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/Linux Commands.md",
+                "file": "Terminal/Vim Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/Linux Commands.md"
+                "file": "Terminal/Vim Commands.md"
               }
             }
           }
@@ -184,25 +204,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dbe6d98dfa98f2a8",
+  "active": "acaac98c03d98f19",
   "lastOpenFiles": [
-    "Terminal/ZSH.md",
-    "Terminal/Java/Java Notes.md",
+    "Terminal/Raspberry Pi.md",
+    "Terminal/ZSH Plug-ins.md",
+    "Terminal/SSH Comands.md",
+    "Terminal/GPG/GPG (Dad's Notes).md",
+    "Terminal/Linux Commands.md",
     "Terminal/GPG/GPG.md",
-    "Terminal/Java/Java Colors.md",
-    "Hooks/Formatter/unneeded f string (Python).md",
-    "Hooks/Hooks.md",
+    "Hooks/yaml.md",
     "Hooks/Integration with IDE.md",
+    "Hooks/Hooks.md",
     "Hooks/Linter/Ruff.md",
     "Hooks/Linter/flake8.md",
     "Hooks/Linter/codespeller.md",
+    "Hooks/Formatter/unneeded f string (Python).md",
     "Hooks/Formatter/clang-format.md",
     "Hooks/Formatter/black.md",
-    "Terminal/GPG/GPG (Dad's Notes).md",
-    "Terminal/Git Commands.md",
-    "Terminal/Linux Commands.md",
-    "Terminal/SSH Comands.md",
     "Terminal/Vim Commands.md",
+    "Terminal/Git Commands.md",
+    "Terminal/Java/Java Notes.md",
+    "Terminal/Java/Java Colors.md",
     "Terminal/GPG/Create GPG.md",
     "Terminal/GPG/Other GPG notes.md",
     "Terminal/GPG/GPG Encryptions.md",
@@ -212,7 +234,6 @@
     "Untitled.canvas",
     "2023-04-12.md",
     "Untitled 1.canvas",
-    "Hooks/yaml.md",
     "README.md",
     "Terminal/GPG",
     "Terminal/().md",

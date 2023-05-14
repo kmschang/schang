@@ -1,7 +1,6 @@
 
 
 ## Plug-ins
-
 https://github.com/unixorn/awesome-zsh-plugins#plugins
 
 ### Color Commands
