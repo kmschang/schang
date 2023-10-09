@@ -6,6 +6,7 @@
 INSTALL_PYTHON=/opt/homebrew/opt/pre-commit/libexec/bin/python3.11
 ARGS=(hook-impl --config=workflows/.pre-commit-config.yaml --hook-type=pre-commit)
 # end templated
+# end templated
 
 HERE="$(cd "$(dirname "$0")" && pwd)"
 ARGS+=(--hook-dir "$HERE" -- "$@")
