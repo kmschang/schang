@@ -1,5 +1,11 @@
 # Hooks
 
+## dotfiles
+
+- This repository has all of my "admistrative" programs that I used in various other repo's
+- It has my hooks, scripts, workflow, and other important programs
+- It has my notes on how to use each, where I found then, what I changed, and how to integrate them into my IDE 
+
 ## Formatter
 
 ### Black
