@@ -49,7 +49,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminal/Vim Commands.md",
+                "file": "Terminal/Git Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e10dd583e8ab9f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hooks/yaml.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "62ee92e7f81acf27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terminal/Git Commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,9 +90,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "780044b4d2ac8b39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "scripts/-Permissions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -142,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminal/Vim Commands.md",
+                "file": "scripts/-Permissions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminal/Vim Commands.md",
+                "file": "scripts/-Permissions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +218,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminal/Vim Commands.md"
+                "file": "scripts/-Permissions.md"
+              }
+            }
+          },
+          {
+            "id": "39a05d5b426660d3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -204,16 +250,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "acaac98c03d98f19",
+  "active": "780044b4d2ac8b39",
   "lastOpenFiles": [
-    "Terminal/Raspberry Pi.md",
-    "Terminal/ZSH Plug-ins.md",
-    "Terminal/SSH Comands.md",
-    "Terminal/GPG/GPG (Dad's Notes).md",
-    "Terminal/Linux Commands.md",
+    "Terminal/GPG/GPG 2.0.md",
     "Terminal/GPG/GPG.md",
-    "Hooks/yaml.md",
+    "Terminal/ZSH Plug-ins.md",
+    "Terminal/Vim Commands.md",
+    "Terminal/SSH Comands.md",
+    "Terminal/Raspberry Pi.md",
+    "Terminal/Linux Commands.md",
+    "Terminal/Git Commands.md",
+    "Terminal/Java/Java Notes.md",
+    "Terminal/Java/Java Colors.md",
     "Hooks/Integration with IDE.md",
+    "Hooks/yaml.md",
     "Hooks/Hooks.md",
     "Hooks/Linter/Ruff.md",
     "Hooks/Linter/flake8.md",
@@ -221,10 +271,6 @@
     "Hooks/Formatter/unneeded f string (Python).md",
     "Hooks/Formatter/clang-format.md",
     "Hooks/Formatter/black.md",
-    "Terminal/Vim Commands.md",
-    "Terminal/Git Commands.md",
-    "Terminal/Java/Java Notes.md",
-    "Terminal/Java/Java Colors.md",
     "Terminal/GPG/Create GPG.md",
     "Terminal/GPG/Other GPG notes.md",
     "Terminal/GPG/GPG Encryptions.md",
