@@ -102,9 +102,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "178c0698dee9ae00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Portfolio.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -178,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "scripts/-Permissions.md",
+                "file": "Portfolio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "scripts/-Permissions.md",
+                "file": "Portfolio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "scripts/-Permissions.md"
+                "file": "Portfolio.md"
               }
             }
           },
@@ -250,10 +262,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa34922382e7841d",
+  "active": "178c0698dee9ae00",
   "lastOpenFiles": [
-    "Hooks/Hooks.md",
     "scripts/-Permissions.md",
+    "Portfolio.md",
+    "Hooks/Hooks.md",
     "Terminal/GPG/GPG 2.0.md",
     "Terminal/GPG/GPG.md",
     "Terminal/ZSH Plug-ins.md",
@@ -283,7 +296,6 @@
     "Untitled 1.canvas",
     "README.md",
     "Terminal/GPG",
-    "Terminal/().md",
     "templates/clang-format.txt",
     "Terminal/Java",
     "scripts/clang-format.bash",
