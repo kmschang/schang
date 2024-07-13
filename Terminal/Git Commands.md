@@ -1,4 +1,4 @@
-#linux #git
+     #linux #git
 
 #### Changing author of account
 ```bash
@@ -33,7 +33,20 @@ git remote add origin <GITHUB SSH URL>
 git push -u origin main
 ```
 
+##### Add existing code to repository (Changes in GitHub already)
+``` bash
+git init
+git branch -M main
+git remote add origin <GITHUB SSH URL>
+git pull --force origin main
+git push -u origin main
+```
 
+##### Create git branch (add remote)
+``` bash
+git checkout -B <BRANCHNAME>
+git push origin -u <BRANCHNAME>
+```
 ##### Cloning a repository
 ```bash
 git clone <GITHUB SSH URL>

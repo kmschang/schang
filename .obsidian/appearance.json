@@ -1,6 +1,7 @@
 {
-  "cssTheme": "Obsidianite",
+  "cssTheme": "Atom",
   "accentColor": "",
   "textFontFamily": "",
-  "monospaceFontFamily": ""
+  "monospaceFontFamily": "",
+  "baseFontSize": 16
 }

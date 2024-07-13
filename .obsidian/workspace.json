@@ -109,14 +109,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio.md",
+                "file": "Terminal/Git Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85f8bee496f4f0cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terminal/Git Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd7bc04e25efccb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terminal/Git Commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "90e7f983b07ccbe2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/Bootstrap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d806a4a45c8aca6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Development/Bootstrap.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -190,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Portfolio.md",
+                "file": "Web Development/Bootstrap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Portfolio.md",
+                "file": "Web Development/Bootstrap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio.md"
+                "file": "Web Development/Bootstrap.md"
               }
             }
           },
@@ -240,7 +288,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -262,19 +312,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "178c0698dee9ae00",
+  "active": "3d806a4a45c8aca6",
   "lastOpenFiles": [
-    "scripts/-Permissions.md",
-    "Portfolio.md",
-    "Hooks/Hooks.md",
-    "Terminal/GPG/GPG 2.0.md",
+    "Web Development/Organization.md",
+    "Web Development/Bootstrap.md",
+    "Terminal/Git Commands.md",
+    "Untitled",
+    "Web Development",
     "Terminal/GPG/GPG.md",
+    "Terminal/GPG/GPG 2.0.md",
+    "Portfolio.md",
+    "README.md",
+    "Untitled.canvas",
+    "2023-10-30.md",
+    "scripts/-Permissions.md",
+    "Hooks/Hooks.md",
     "Terminal/ZSH Plug-ins.md",
     "Terminal/Vim Commands.md",
     "Terminal/SSH Comands.md",
     "Terminal/Raspberry Pi.md",
     "Terminal/Linux Commands.md",
-    "Terminal/Git Commands.md",
     "Terminal/Java/Java Notes.md",
     "Terminal/Java/Java Colors.md",
     "Hooks/Integration with IDE.md",
@@ -286,21 +343,14 @@
     "Hooks/Formatter/clang-format.md",
     "Hooks/Formatter/black.md",
     "Terminal/GPG/Create GPG.md",
-    "Terminal/GPG/Other GPG notes.md",
-    "Terminal/GPG/GPG Encryptions.md",
     "templates/gpg-agent.txt",
     "templates/gpg.txt",
     "templates/gpg_agent.txt",
-    "Untitled.canvas",
-    "2023-04-12.md",
     "Untitled 1.canvas",
-    "README.md",
     "Terminal/GPG",
     "templates/clang-format.txt",
     "Terminal/Java",
     "scripts/clang-format.bash",
-    "scripts/codespell.bash",
-    "Hooks/Linter",
-    "Hooks/Formatter"
+    "scripts/codespell.bash"
   ]
 }
