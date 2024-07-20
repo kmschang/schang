@@ -47,11 +47,41 @@ chmod 600 *
 ### On Mac
 ```zsh
 cd ~/.gnupg
-scp dirmngr.conf gpg-agent.conf gpg.conf hkps.pool.sks-keyservers.net.pem ubuntu@10.2.50.34:.gnupg
+gpg --list-secret-keys --keyid-format=LONG
 ```
-
+- $KEYID = after rsa4096/
+```zsh
+gpg --export --armor $KEYID > $KEYID.pub.asc ;
+gpg --export-secret-keys --armor $KEYID > $KEYID.pri.asc ;
+gpg --export-secret-subkeys --armor $KEYID > $KEYID.pri.sub.asc ;
+gpg --output $KEYID.rev --gen-revoke $KEYID
+```
+- You should have to put in your passphrase during this process a few times
+```zsh
+ll *.asc
+```
+- Find your keys
+```zsh
+scp *.asc $KEYID $KEYID.rev ubuntu@10.2.50.34:.gnupg/
+```
 
 ## On Pi
 ```zsh
+gpg --import *.pri.asc
+gpg --list-keys && gpg --list-secret-keys
+chmod 700 .
+chmod 660 *.asc
 ``` 
+```zsh
+gpg --edit-key $KEYID
+	expire (1y)
+	trust (5 [Ultimate])
+	save
+```
 
+### GPG Connection with GitHub
+```zsh
+git config --global --unset gpg.format
+git config --global user.signingkey $KEYID
+git config --global commit.gpgsign true
+```
