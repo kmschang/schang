@@ -17,10 +17,17 @@
 	- Set Password
 		- Save to 1password
 	- Enable SSH
-	- Use public key authentication
+		- Use public key authentication
 - Save
 - Apple OS customization settings
 - Card will be ready for input now
+
+## Mac Updates
+```zsh
+cd ~/.ssh
+vi known_hosts
+```
+- Delete all lines that aren't github or at leas the ones that have the pi's ip adress there
 
 ## SSH and GPG from Mac to Pi
 
@@ -41,6 +48,12 @@ chmod 700 .
 chmod 600 *
 ```
 
+### Add Dad's Public Key
+```zsh
+cd ~/.ssh
+cat "$DADKEYID" >> authorized_keys
+```
+- Adds Dad's public key, allowing him to SSH onto my pi 
 
 ### GPG
 
@@ -117,6 +130,8 @@ dot submodule update --init # ccreate new brnach for local changes
 
 dot checkout -b pi-updates
 dot push --set-upstream origin pi-updates
+
+chsh --shell /usr/bin/zsh
 ```
 
 ###  Confirm config
@@ -132,12 +147,6 @@ vi ~/.dotfiles/config
 	remote = origin
 	merge = refs/heads/main
 ```
-
-### Install "oh my zsh"
-```zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
 ### Create a git repository
 ```zsh
 cd /etc 
