@@ -55,19 +55,28 @@ cat "$DADKEYID" >> authorized_keys
 ```
 - Adds Dad's public key, allowing him to SSH onto my pi 
 
+### Run SSH agent
+
+```zsh
+eval $(ssh-agent -s -t 12h)
+ssh-add /home/ubuntu/.ssh/id_ed25519
+ssh-add -L
+```
+
 ### GPG
 
 #### On Mac
 ```zsh
 cd ~/.gnupg
 gpg --list-secret-keys --keyid-format=LONG
+scp dirmngr.conf gpg-agent.conf gpg.conf hkps.pool.sks-keyservers.net.pem ubuntu@10.2.50.34:.gnupg
 ```
 - $KEYID = after rsa4096/
 
 ```zsh
-gpg --export --armor $KEYID > $KEYID.pub.asc ;
-gpg --export-secret-keys --armor $KEYID > $KEYID.pri.asc ;
-gpg --export-secret-subkeys --armor $KEYID > $KEYID.pri.sub.asc ;
+gpg --export --armor $KEYID > $KEYID.pub.asc
+gpg --export-secret-keys --armor $KEYID > $KEYID.pri.asc
+gpg --export-secret-subkeys --armor $KEYID > $KEYID.pri.sub.asc
 gpg --output $KEYID.rev --gen-revoke $KEYID
 ```
 - You should have to put in your passphrase during this process a few times
@@ -78,16 +87,28 @@ ll *.asc
 - Find your keys
 
 ```zsh
-scp *.asc $KEYID $KEYID.rev ubuntu@10.2.50.34:.gnupg/
+scp $KEYID.* ubuntu@10.2.50.34:.gnupg/
 ```
 
 #### On Pi
 ```zsh
+cd ~/.gnupg
 gpg --import *.pri.asc
 gpg --list-keys && gpg --list-secret-keys
 chmod 700 .
 chmod 660 *.asc
 ``` 
+
+#### Check pinentry
+```zsh
+cd ~/.gnupg
+vi gpg-agent.conf
+```
+- Delete line that has pinentry associated with brew, if so ...
+```zsh
+sudo reboot
+```
+
 
 ```zsh
 gpg --edit-key $KEYID
@@ -111,6 +132,7 @@ git config --global commit.gpgsign true
 
 ```zsh
 sudo gpgconf --kill gpg-agent
+gpg-agent
 ```
 
 
@@ -128,10 +150,8 @@ dot --bare fetch
 dot config --local status.showUntrackedFiles no 
 dot submodule update --init # ccreate new brnach for local changes 
 
-dot checkout -b pi-updates
-dot push --set-upstream origin pi-updates
-
-chsh --shell /usr/bin/zsh
+dot checkout -b pi-$PIID
+dot push --set-upstream origin pi-$PIID
 ```
 
 ###  Confirm config
@@ -147,7 +167,9 @@ vi ~/.dotfiles/config
 	remote = origin
 	merge = refs/heads/main
 ```
-### Create a git repository
+
+
+### Create a git repository (SKIP)
 ```zsh
 cd /etc 
 sudo git init -b main 
@@ -166,11 +188,16 @@ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 git clone https://github.com/pyenv/pyenv-virtualenv.git $(~/.pyenv/bin/pyenv root)/plugins/pyenv-virtualenv
 ```
 
+### Update fzf
+```
+~/.zsh/fzf/install
+```
+
 ### Additional setup and configuration
 ```zsh
 cd 
 sudo apt update 
-sudo apt install bat entr eza fd-find mosh multitail rclone ripgrep tmux tree zsh zsh-common zsh-doc
+sudo apt install bat entr eza fd-find git-delta lsd mosh multitail rclone ripgrep tmux tree zsh zsh-common zsh-doc
 ```
 
 ```zsh
@@ -182,16 +209,20 @@ ln -s /usr/bin/fdfind fd
 ln -s /home/ubuntu/.zsh/fzf/bin/fzf fzf
 ```
 
+**(SKIP)**
 ```zsh
 mkdir -p $XDG_STATE_HOME/vim
 ```
 
-### Install fzf
+### Change shell
+
 ```zsh
-cd ~/.zsh
-git fetch
-~/.zsh/fzf/install
+chsh --shell /usr/bin/zsh
+sudo reboot
 ```
+
+
+
 
 ## Tailscale
 
