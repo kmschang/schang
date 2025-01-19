@@ -1,4 +1,4 @@
-#linux
+#linux #vim #vi
 
 ## Invoke Vim/Vi
 

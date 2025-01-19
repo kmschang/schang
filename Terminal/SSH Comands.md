@@ -1,4 +1,4 @@
-#linux #git
+#linux #git #ssh
 
 https://goteleport.com/blog/how-to-set-up-ssh-keys/
 

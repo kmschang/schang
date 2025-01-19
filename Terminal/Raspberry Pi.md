@@ -1,4 +1,4 @@
-
+#pi 
 ## Download Ubuntu Server
 https://ubuntu.com/download/raspberry-pi
 
@@ -24,26 +24,4 @@ https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-20
 ```bash
 sudo apt install git
 git --version
-```
-
-
-## Adding ZSH
-https://www.tecmint.com/install-oh-my-zsh-in-ubuntu/
-```bash
-sudo apt install curl wget git zsh   # Adding necessary software
-```
-- 'Y' change zsh to main shell
-
-## Configuring ZSH
-https://linuxhint.com/install-use-oh-my-zsh/
-```bash
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-vim .zshrc
-```
-- change theme 
-	- ZSH_THEME="powerlevel10k/powerlevel10k”
-- Add aliases
-	- alias ll="lsd -alF"
-```bash
-source .zshrc                        # Command for changes to take place
 ```

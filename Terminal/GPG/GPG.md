@@ -1,4 +1,4 @@
-
+#pi #gpg
 ## Install and set up
 
 ### install GPG

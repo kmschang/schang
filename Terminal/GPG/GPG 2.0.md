@@ -1,3 +1,4 @@
+#pi #gpg
 # GPG/PGP
 
 [YubiKey Guide][1]

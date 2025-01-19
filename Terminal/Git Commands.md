@@ -1,28 +1,27 @@
-     #linux #git
+#linux #git
 
-#### Changing author of account
+## Changing author of account
 ```bash
 git config --global user.name "USERNAME"     #"Kyle Schang"
 git config --global user.email EMAIL         #Kyle@schang.net
 ```
 
-
-##### Adding to Github
+## Adding to Github
 ```bash
 git add .
 git commit -m '{MESSAGE}'
 git push
 ```
 
-
-##### .gitignore
+## .gitignore
 ```bash
 echo .DS_Store >> .gitignore
 git add .gitignore
+git rm -r --cached .DS_Store
 git commit -m '.DS_Store banished!'
 ```
 
-##### Add existing code to repository
+## Add existing code to repository
 ```bash
 echo "# README" >> README.md
 git init
@@ -33,7 +32,7 @@ git remote add origin <GITHUB SSH URL>
 git push -u origin main
 ```
 
-##### Add existing code to repository (Changes in GitHub already)
+## Add existing code to repository (Changes in GitHub already)
 ``` bash
 git init
 git branch -M main
@@ -42,12 +41,18 @@ git pull --force origin main
 git push -u origin main
 ```
 
-##### Create git branch (add remote)
+## Create git branch (add remote)
 ``` bash
 git checkout -B <BRANCHNAME>
 git push origin -u <BRANCHNAME>
 ```
-##### Cloning a repository
+
+## Reset to last commit
+```zsh
+git reset --hard HEAD
+```
+
+#### Cloning a repository
 ```bash
 git clone <GITHUB SSH URL>
 ```
